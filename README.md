@@ -1,16 +1,21 @@
-# React + Vite
+# Little Lemon Table Booking
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React app for booking a table at the Little Lemon restaurant.
 
-Currently, two official plugins are available:
+## Features
+- Home and booking pages (React Router)
+- Booking form: date, time, guests, occasion
+- Form validation with error messages
+- Unit tests (Vitest and React Testing Library)
+- Responsive layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Setup
+1. `git clone https://github.com/labedsalsabil072-dotcom/little-lemon.git`
+2. `cd little-lemon`
+3. `npm install`
+4. `npm run dev` then open http://localhost:5173
+5. `npm test` to run the tests
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Project structure
+- `src/components`: Header, Nav, Footer, BookingForm
+- `src/pages`: HomePage, BookingPage
